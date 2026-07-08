@@ -4,7 +4,6 @@ OntoNote is a tool for semantically annotating natural language documents agains
 
 The output is TriG format: one named graph per paragraph, every tagged span encoded as an Information Bearing Entity with its text value and character offsets, typed to the user's chosen class via a BFO-compliant ICE individual. Paragraphs can be linked to each other semantically, and the entire document structure maps to BFO/CCO conventions without manual triple authoring.
 
-No Protege required.
 
 ---
 
