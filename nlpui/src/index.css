@@ -1,0 +1,27 @@
+/* Global styles */
+body {
+  margin: 0;
+  background-color: #c0cac4;
+  font-family: "Tahoma", "Verdana", "Geneva", "Trebuchet MS", sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
+
+/* Retro scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #c0cac4;
+  border: 1px solid #7a9a8a;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #e4eee4 0%, #c0cac4 50%, #7a9a8a 100%);
+  border: 1px solid #7a9a8a;
+}
+::-webkit-scrollbar-corner {
+  background: #c0cac4;
+}

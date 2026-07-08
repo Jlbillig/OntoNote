@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  ontonote:
+    build: .
+    ports:
+      - "5056:5056"
+    volumes:
+      # Persist uploaded documents and saved sessions across container restarts
+      - ./uploads:/app/uploads
+    restart: unless-stopped

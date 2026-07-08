@@ -1,0 +1,14 @@
+node_modules/
+nlpui/node_modules/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+uploads/*.pdf
+uploads/*.docx
+uploads/*.json
+uploads/*.trig
+uploads/*.ttl
+files/
+*.zip
+static/dist/
